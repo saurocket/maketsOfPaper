@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/maketsOfPaper/static/css/main.a94bac15.chunk.css",
-    "main.js": "/maketsOfPaper/static/js/main.f2d57f9d.chunk.js",
-    "main.js.map": "/maketsOfPaper/static/js/main.f2d57f9d.chunk.js.map",
+    "main.js": "/maketsOfPaper/static/js/main.f04d8d8b.chunk.js",
+    "main.js.map": "/maketsOfPaper/static/js/main.f04d8d8b.chunk.js.map",
     "runtime-main.js": "/maketsOfPaper/static/js/runtime-main.6256e935.js",
     "runtime-main.js.map": "/maketsOfPaper/static/js/runtime-main.6256e935.js.map",
     "static/js/2.1f5845ee.chunk.js": "/maketsOfPaper/static/js/2.1f5845ee.chunk.js",
@@ -18,12 +18,20 @@
     "static/media/about3.39ee25f3.jpg": "/maketsOfPaper/static/media/about3.39ee25f3.jpg",
     "static/media/about4.1c937ad4.jpg": "/maketsOfPaper/static/media/about4.1c937ad4.jpg",
     "static/media/icons.21a3d03f.svg": "/maketsOfPaper/static/media/icons.21a3d03f.svg",
-    "static/media/logo.e8000327.png": "/maketsOfPaper/static/media/logo.e8000327.png"
+    "static/media/logo.e8000327.png": "/maketsOfPaper/static/media/logo.e8000327.png",
+    "static/media/photo1.83de0337.jpg": "/maketsOfPaper/static/media/photo1.83de0337.jpg",
+    "static/media/photo2.9f9a4d8d.jpg": "/maketsOfPaper/static/media/photo2.9f9a4d8d.jpg",
+    "static/media/photo3.30e280e8.jpg": "/maketsOfPaper/static/media/photo3.30e280e8.jpg",
+    "static/media/photo4.2c54004a.jpg": "/maketsOfPaper/static/media/photo4.2c54004a.jpg",
+    "static/media/photo5.375ddcae.jpg": "/maketsOfPaper/static/media/photo5.375ddcae.jpg",
+    "static/media/photo6.995568ea.jpg": "/maketsOfPaper/static/media/photo6.995568ea.jpg",
+    "static/media/photo7.01a82aa5.jpg": "/maketsOfPaper/static/media/photo7.01a82aa5.jpg",
+    "static/media/photo8.4e224a94.jpg": "/maketsOfPaper/static/media/photo8.4e224a94.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.6256e935.js",
     "static/js/2.1f5845ee.chunk.js",
     "static/css/main.a94bac15.chunk.css",
-    "static/js/main.f2d57f9d.chunk.js"
+    "static/js/main.f04d8d8b.chunk.js"
   ]
 }
