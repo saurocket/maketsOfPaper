@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/maketsOfPaper/static/css/main.a94bac15.chunk.css",
+    "main.js": "/maketsOfPaper/static/js/main.f2d57f9d.chunk.js",
+    "main.js.map": "/maketsOfPaper/static/js/main.f2d57f9d.chunk.js.map",
+    "runtime-main.js": "/maketsOfPaper/static/js/runtime-main.6256e935.js",
+    "runtime-main.js.map": "/maketsOfPaper/static/js/runtime-main.6256e935.js.map",
+    "static/js/2.1f5845ee.chunk.js": "/maketsOfPaper/static/js/2.1f5845ee.chunk.js",
+    "static/js/2.1f5845ee.chunk.js.map": "/maketsOfPaper/static/js/2.1f5845ee.chunk.js.map",
+    "static/js/3.50c521b7.chunk.js": "/maketsOfPaper/static/js/3.50c521b7.chunk.js",
+    "static/js/3.50c521b7.chunk.js.map": "/maketsOfPaper/static/js/3.50c521b7.chunk.js.map",
+    "index.html": "/maketsOfPaper/index.html",
+    "static/css/main.a94bac15.chunk.css.map": "/maketsOfPaper/static/css/main.a94bac15.chunk.css.map",
+    "static/js/2.1f5845ee.chunk.js.LICENSE.txt": "/maketsOfPaper/static/js/2.1f5845ee.chunk.js.LICENSE.txt",
+    "static/media/index.scss": "/maketsOfPaper/static/media/hero1.cdae9ff7.jpg",
+    "static/media/about1.3f149c5c.jpg": "/maketsOfPaper/static/media/about1.3f149c5c.jpg",
+    "static/media/about2.591a0792.jpg": "/maketsOfPaper/static/media/about2.591a0792.jpg",
+    "static/media/about3.39ee25f3.jpg": "/maketsOfPaper/static/media/about3.39ee25f3.jpg",
+    "static/media/about4.1c937ad4.jpg": "/maketsOfPaper/static/media/about4.1c937ad4.jpg",
+    "static/media/icons.21a3d03f.svg": "/maketsOfPaper/static/media/icons.21a3d03f.svg",
+    "static/media/logo.e8000327.png": "/maketsOfPaper/static/media/logo.e8000327.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6256e935.js",
+    "static/js/2.1f5845ee.chunk.js",
+    "static/css/main.a94bac15.chunk.css",
+    "static/js/main.f2d57f9d.chunk.js"
+  ]
+}
