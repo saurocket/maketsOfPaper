@@ -6,6 +6,7 @@ import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import {Services} from "./Component/Services/Services";
 import {Gallery} from "./Component/Gallery/Gallery";
 import {Contact} from "./Component/Contact/Contact";
+import { mainPath } from './CONST/pathConst';
 
 
 function App() {
@@ -14,7 +15,7 @@ function App() {
         <>
           <Header/>
           <Switch>
-              <Route path="/" exact>
+              <Route path={mainPath} exact>
                   <Main/>
               </Route>
               <Route path="/services">

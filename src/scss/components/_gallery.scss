@@ -17,15 +17,13 @@
   justify-content: center;
 
   li {
+    font-weight: 400;
     padding: 0px 20px;
     margin-bottom: 10px;
     cursor: pointer;
-    border-bottom: 2px solid $yellow;
-    border-left: 2px solid $yellow;
-    border-right: 2px solid $gray_darken;
-    border-top: 2px solid $gray_darken;
+    border: 2px solid transparent;
     //background-color: $backgroundFilter;
-    color: $gray_darken;
+    color: $black;
     border-radius: 3px;
     transition: all 0.250s cubic-bezier(0.4, 0, 0.2, 1);
     margin-right: 10px;
@@ -47,6 +45,7 @@
     .active {
       background-color: $gray;
       color: $white;
+
     }
   }
 
@@ -54,8 +53,10 @@
 }
 
 .gallery-filter-list>li.active{
-  background-color: $gray;
-  color: $white;
+  border-bottom: 2px solid $yellow;
+  border-left: 2px solid $yellow;
+  border-right: 2px solid $gray_darken;
+  border-top: 2px solid $gray_darken;
 }
 .gallery__card{
   padding: 5px;

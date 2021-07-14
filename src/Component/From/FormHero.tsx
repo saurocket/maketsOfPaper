@@ -1,15 +1,29 @@
-import { useData } from '../../Context/DataContext'
+import {useData} from '../../Context/DataContext'
 import Sprite from '../../img/icons/icons.svg'
-import {useEffect} from "react";
+import {useEffect, useState} from "react";
+import {useForm} from "react-hook-form";
+import {Input} from "./Input";
+
 
 export const FormHero = () => {
-    const {data, setValues}:any = useData()
+    const {data, setValues}: any = useData()
+    const {register, handleSubmit, watch, formState: {errors}} = useForm();
+    console.log(errors)
+
+    // @ts-ignore
+    const onSubmit = data => {
+        // console.log(`this is my fomData ${data}`)
+        formClose()
+    };
+
+
+
 
     useEffect(() => {
         console.log(data)
-        if (data){
+        if (data) {
             document.body.style.overflowY = "hidden";
-        }else{
+        } else {
             document.body.style.overflowY = "";
         }
 
@@ -21,55 +35,57 @@ export const FormHero = () => {
 
     return (
         <div
-            className={data? "backdrop" : "backdrop is-hidden"}
+            className={data ? "backdrop" : "backdrop is-hidden"}
         >
             <div className="modal">
                 <div className="modal-wrapper">
                     <button
                         className="btn-close"
-                    onClick={() => {formClose()}}
+                        onClick={() => {
+                            formClose()
+                        }}
                     >&#9932;</button>
-                    <form id="modal">
+                    <form id="modal" onSubmit={handleSubmit(onSubmit)}>
                         <b className="modal-header">Оставьте свои данные, мы вам перезвоним</b>
-                        <div className="group">
-                            <label className="form-label" htmlFor="name">
-                                Имя
-                            </label>
-                            <input className="form-input" type="text" id="name" name="name"/>
-                    <span>
-                            <svg className="modal-icon">
-                                <use href={Sprite + '#user'}></use>
-                            </svg>
-                        </span>
-                        </div>
-                        <div className="group">
-                            <label className="form-label" htmlFor="tel">
-                                Телефон
 
-                            </label>
-                            <input className="form-input" type="tel" id="tel" name="telephone"/>
-                    <span>
-                            <svg className="modal-icon">
-                                <use href={Sprite + '#smartphone'}></use>
-                            </svg>
-                        </span>
-                        </div>
-                        <div className="group">
-                            <label className="form-label" htmlFor="email">
-                                Почта
+                        <Input
+                        type='text'
+                        labelName='Имя'
+                        label='name'
+                            //            @ts-ignore
+                        register={register}
+                        svg={Sprite + '#user'}
+                        errors={errors}
+                        required
+                        />
+                        <Input
+                            type='tel'
+                            labelName='Телефон'
+                            label='tel'
+                            //            @ts-ignore
+                            register={register}
+                            svg={Sprite + '#smartphone'}
+                            errors={errors}
+                        />
+                        <Input
+                            type='email'
+                            labelName='Почта'
+                            label='email'
+                            //            @ts-ignore
+                            register={register}
+                            svg={Sprite + '#mail'}
+                            errors={errors}
+                            required
+                        />
 
-                            </label>
-                            <input className="form-input" type="email" id="email" name="email"/>
-                            <span>
-                            <svg className="modal-icon modal-icon-mail">
-                                <use href={Sprite + '#mail'}></use>
-                            </svg>
-                        </span>
-                        </div>
                         <div className="group">
                             <label htmlFor="comment">Коментарий</label>
-                            <textarea className="form-input" id="comment" name="comment" placeholder="Введите текст">
-                        </textarea>
+                            <textarea
+                                className="form-input"
+                                id="comment"
+                                placeholder="Введите текст"
+                                {...register("comment")}
+                            />
                         </div>
                         <button className="form-btn" type="submit">Отправить
                         </button>
@@ -77,7 +93,7 @@ export const FormHero = () => {
                 </div>
             </div>
         </div>
-)
+    )
 
 
 }
