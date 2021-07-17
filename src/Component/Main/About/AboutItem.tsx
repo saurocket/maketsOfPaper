@@ -12,7 +12,7 @@ export const AboutItem:React.FC<PropsType> = ({src, header}) => {
     return (
         <li className="about-list-item">
             <div className="about-wrapper-img">
-                <img src={src} alt="пример работы" width="100%"/>
+                <img src={src} alt="приклад робіт" width="100%"/>
                 <div className="about-border"/>
             </div>
             <div className="about-text-description">

@@ -15,7 +15,7 @@ export const FooterTop = () => {
                         <li><a href="mailto:info@devstudio.com">projektmaket@gmail.com</a></li>
                     </ul>
                     <ul className="footer-address-list">
-                        <li>г. Киев, пр-т Леси Украинки, 26</li>
+                        <li>м. Вишневе, вул. Залізнична 92</li>
                     </ul>
                 </address>
             </div>

@@ -3,7 +3,7 @@ export const Client = () => {
     return <>
         <section className="clients">
             <div className="clients-container">
-                <h2>Наши клиенты</h2>
+                <h2>Наші клієнти</h2>
                 <ul className="clients-list">
                     <li>
                         <svg className="clients-icon integra" width="70%">

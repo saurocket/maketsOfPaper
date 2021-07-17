@@ -18,7 +18,7 @@ export const Contact = () => {
         margin-left: auto;
         margin-right: auto;
         max-width: 600px;
-    
+
     `
 
 
@@ -26,11 +26,11 @@ export const Contact = () => {
         <section className='contact'>
             <div className="contact-container">
                 <From id="modal" onSubmit={handleSubmit(onSubmit)}>
-                    <b className="modal-header">Оставьте свои данные, мы вам перезвоним</b>
+                    <b className="modal-header">Введіть, будь ласка, Ваші контактні дані, ми Вам зателефонуємо</b>
 
                     <Input
                         type='text'
-                        labelName='Имя'
+                        labelName='Ім'я'
                         label='name'
                         //            @ts-ignore
                         register={register}
@@ -49,7 +49,7 @@ export const Contact = () => {
                     />
                     <Input
                         type='email'
-                        labelName='Почта'
+                        labelName='Пошта'
                         label='email'
                         //            @ts-ignore
                         register={register}
@@ -59,15 +59,15 @@ export const Contact = () => {
                     />
 
                     <div className="group">
-                        <label htmlFor="comment">Коментарий</label>
+                        <label htmlFor="comment">Коментар</label>
                         <textarea
                             className="form-input"
                             id="comment"
-                            placeholder="Введите текст"
+                            placeholder="Введіть текст"
                             {...register("comment")}
                         />
                     </div>
-                    <button className="form-btn" type="submit">Отправить
+                    <button className="form-btn" type="submit">Надіслати
                     </button>
                 </From>
 

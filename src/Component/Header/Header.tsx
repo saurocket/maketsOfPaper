@@ -13,16 +13,16 @@ export const Header = () => {
         setOpen(!open)
     }
     const onShowPhone = () => {
-        Swal.fire('Связаться с нами', "<a style='color: #1e88e5; font-size: 1.5rem'  href=\"tel:+0977550966\">" +
+        Swal.fire('Зателефонувати нам', "<a style='color: #1e88e5; font-size: 1.5rem'  href=\"tel:+0977550966\">" +
             "+38 097 755 09 66</a>")
     }
     const onShowEmail = () => {
-        Swal.fire('Написать нам', "<a style='color: #1e88e5; font-size: 1.5rem' " +
+        Swal.fire('Написати нам', "<a style='color: #1e88e5; font-size: 1.5rem' " +
             "href=\"mailto:info@devstudio.com\">projektmaket@gmail.com</a>")
     }
     const opShowMap = () => {
-        Swal.fire('Мы находимся', "" + "<a style='color: #1e88e5; font-size: 1.5rem' " +
-            "href=\"adress\">г. Киев, пр-т Леси Украинки, 26</a>" +
+        Swal.fire('Мы знаходимося', "" + "<a style='color: #1e88e5; font-size: 1.5rem' " +
+            "href=\"adress\">м. Вишневе, вул. Залізнична 92</a>" +
             "<iframe\n" +
             "src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2541.7794508425036!2d30.536197115696865!3d50.4265806794721!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cf0e033ecbe9%3A0x57a4dffefec77da0!2z0LHRg9C7LiDQm9C10YHQuCDQo9C60YDQsNC40L3QutC4LCAyNiwg0JrQuNC10LIsINCj0LrRgNCw0LjQvdCwLCAwMjAwMA!5e0!3m2!1sru!2spl!4v1626453830197!5m2!1sru!2spl\"\n" +
             "width=\"100%\" height=\"450\"  loading=\"lazy\"></iframe>")
