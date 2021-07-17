@@ -13,7 +13,7 @@ export const ServicesItem:React.FC<PropsType> = ({src,header,children}) => {
     return (
         <li>
             <div className="aboutPage-wrapper-img">
-                <img src={src} alt="пример работы" width="100%"/>
+                <img src={src} alt="приклад робіт" width="100%"/>
             </div>
             <div className="aboutPage-description">
                 <h3>{header}</h3>

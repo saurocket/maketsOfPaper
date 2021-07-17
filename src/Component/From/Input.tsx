@@ -7,7 +7,7 @@ const Errors = styled.p`
     position: absolute;
     font-size: 14px;
     top: -15px;
- 
+
 `
 
 type IFormValues = {
@@ -47,7 +47,7 @@ export const Input:React.FC<PropsTypes> = ({labelName,
                 id={label}
 //            @ts-ignore
                 {...register(label,{required})}/>
-            {errors[label] && <Errors>{labelName} - обязательное поле</Errors>}
+            {errors[label] && <Errors>{labelName} - обов'язкове поле</Errors>}
 
             <span>
                             <svg className="modal-icon">
