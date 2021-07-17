@@ -1,0 +1,12 @@
+.contact {
+  font-size: 18px;
+  line-height: 1.5;
+  font-family: Gilroy;
+  font-weight: 600;
+  font-style: normal;
+
+}
+
+.contact-container {
+  @include container;
+}
