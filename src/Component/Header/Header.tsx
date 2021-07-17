@@ -24,7 +24,7 @@ export const Header = () => {
         Swal.fire('Мы знаходимося', "" + "<a style='color: #1e88e5; font-size: 1.5rem' " +
             "href=\"adress\">м. Вишневе, вул. Залізнична 92</a>" +
             "<iframe\n" +
-            "src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2541.7794508425036!2d30.536197115696865!3d50.4265806794721!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cf0e033ecbe9%3A0x57a4dffefec77da0!2z0LHRg9C7LiDQm9C10YHQuCDQo9C60YDQsNC40L3QutC4LCAyNiwg0JrQuNC10LIsINCj0LrRgNCw0LjQvdCwLCAwMjAwMA!5e0!3m2!1sru!2spl!4v1626453830197!5m2!1sru!2spl\"\n" +
+            "src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8076.933186982056!2d30.352162856793615!3d50.383805813513376!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4ca24d93d4597%3A0x8ef078bd7f4d39e2!2z0LLRg9C70LjRhtGPINCX0LDQu9GW0LfQvdC40YfQvdCwLCA5Miwg0JLQuNGI0L3QtdCy0LUsINCa0LjRl9Cy0YHRjNC60LAg0L7QsdC7Liwg0KPQutGA0LDRl9C90LAsIDA4MTMy!5e0!3m2!1suk!2spl!4v1626549872839!5m2!1suk!2spl\n" +
             "width=\"100%\" height=\"450\"  loading=\"lazy\"></iframe>")
     }
     return (
