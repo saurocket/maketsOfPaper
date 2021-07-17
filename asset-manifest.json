@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/maketsOfPaper/static/css/main.0f0ce1b5.chunk.css",
-    "main.js": "/maketsOfPaper/static/js/main.939f6a10.chunk.js",
-    "main.js.map": "/maketsOfPaper/static/js/main.939f6a10.chunk.js.map",
-    "runtime-main.js": "/maketsOfPaper/static/js/runtime-main.881baee1.js",
-    "runtime-main.js.map": "/maketsOfPaper/static/js/runtime-main.881baee1.js.map",
-    "static/js/2.c4918b3b.chunk.js": "/maketsOfPaper/static/js/2.c4918b3b.chunk.js",
-    "static/js/2.c4918b3b.chunk.js.map": "/maketsOfPaper/static/js/2.c4918b3b.chunk.js.map",
-    "static/js/3.f63e4700.chunk.js": "/maketsOfPaper/static/js/3.f63e4700.chunk.js",
-    "static/js/3.f63e4700.chunk.js.map": "/maketsOfPaper/static/js/3.f63e4700.chunk.js.map",
+    "main.css": "/maketsOfPaper/static/css/main.2955247f.chunk.css",
+    "main.js": "/maketsOfPaper/static/js/main.1f7e86dc.chunk.js",
+    "main.js.map": "/maketsOfPaper/static/js/main.1f7e86dc.chunk.js.map",
+    "runtime-main.js": "/maketsOfPaper/static/js/runtime-main.de00c910.js",
+    "runtime-main.js.map": "/maketsOfPaper/static/js/runtime-main.de00c910.js.map",
+    "static/js/2.b9b23a5e.chunk.js": "/maketsOfPaper/static/js/2.b9b23a5e.chunk.js",
+    "static/js/2.b9b23a5e.chunk.js.map": "/maketsOfPaper/static/js/2.b9b23a5e.chunk.js.map",
+    "static/js/3.187a34ac.chunk.js": "/maketsOfPaper/static/js/3.187a34ac.chunk.js",
+    "static/js/3.187a34ac.chunk.js.map": "/maketsOfPaper/static/js/3.187a34ac.chunk.js.map",
     "index.html": "/maketsOfPaper/index.html",
-    "static/css/main.0f0ce1b5.chunk.css.map": "/maketsOfPaper/static/css/main.0f0ce1b5.chunk.css.map",
-    "static/js/2.c4918b3b.chunk.js.LICENSE.txt": "/maketsOfPaper/static/js/2.c4918b3b.chunk.js.LICENSE.txt",
+    "static/css/main.2955247f.chunk.css.map": "/maketsOfPaper/static/css/main.2955247f.chunk.css.map",
+    "static/js/2.b9b23a5e.chunk.js.LICENSE.txt": "/maketsOfPaper/static/js/2.b9b23a5e.chunk.js.LICENSE.txt",
     "static/media/index.scss": "/maketsOfPaper/static/media/hero1.94b3544a.jpg",
     "static/media/about1.3f149c5c.jpg": "/maketsOfPaper/static/media/about1.3f149c5c.jpg",
     "static/media/about2.591a0792.jpg": "/maketsOfPaper/static/media/about2.591a0792.jpg",
@@ -29,9 +29,9 @@
     "static/media/photo8.4e224a94.jpg": "/maketsOfPaper/static/media/photo8.4e224a94.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.881baee1.js",
-    "static/js/2.c4918b3b.chunk.js",
-    "static/css/main.0f0ce1b5.chunk.css",
-    "static/js/main.939f6a10.chunk.js"
+    "static/js/runtime-main.de00c910.js",
+    "static/js/2.b9b23a5e.chunk.js",
+    "static/css/main.2955247f.chunk.css",
+    "static/js/main.1f7e86dc.chunk.js"
   ]
 }
