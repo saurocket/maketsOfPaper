@@ -50,7 +50,7 @@ export const FormHero = () => {
 
                         <Input
                         type='text'
-                        labelName='Ім'я'
+                        labelName="Ім'я"
                         label='name'
                             //            @ts-ignore
                         register={register}

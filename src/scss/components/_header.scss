@@ -93,6 +93,7 @@
   background-color: $black;
 }
 .nav-container.open{
+  z-index: 3;
   top: 65px;
   transition: all .5s ease-in-out;
 }
