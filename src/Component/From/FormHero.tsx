@@ -1,21 +1,47 @@
 import {useData} from '../../Context/DataContext'
 import Sprite from '../../img/icons/icons.svg'
-import {useEffect, useState} from "react";
+import {useEffect} from "react";
 import {useForm} from "react-hook-form";
 import {Input} from "./Input";
+import {useEmail} from "../../Hook/useEmail";
+import Swal from "sweetalert2";
 
 
 export const FormHero = () => {
+    const {loading,message,sendEmail} = useEmail()
+
+
     const {data, setValues}: any = useData()
-    const {register, handleSubmit, watch, formState: {errors}} = useForm();
+    const {register, handleSubmit, watch, formState: {errors}, reset} = useForm();
     console.log(errors)
 
     // @ts-ignore
     const onSubmit = data => {
-        // console.log(`this is my fomData ${data}`)
+        sendEmail(data)
+        reset(register)
         formClose()
     };
-
+    useEffect(() => {
+        if (message === 'SUCCESS'){
+            Swal.fire({
+                position: 'center',
+                icon: 'success',
+                title: 'Повідомлення успішно відправлено',
+                showConfirmButton: false,
+                timer: 2500
+            })
+            reset(register)
+            return
+        }
+        if(message === 'FAILED'){
+            Swal.fire({
+                icon: 'error',
+                title: 'Щось пішло не так',
+                text: "Позвоните нам!",
+                footer: '<a href="tel:+380977550966">+38 097 755 09 66</a>'
+            })
+        }
+    },[message])
 
 
 
@@ -87,7 +113,10 @@ export const FormHero = () => {
                                 {...register("comment")}
                             />
                         </div>
-                        <button className="form-btn" type="submit">Надіслати
+                        <button className="form-btn" type="submit"
+                        disabled={loading}
+                        >
+                            Надіслати
                         </button>
                     </form>
                 </div>
