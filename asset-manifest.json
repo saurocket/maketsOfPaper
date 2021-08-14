@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/maketsOfPaper/static/css/main.f39bd024.chunk.css",
-    "main.js": "/maketsOfPaper/static/js/main.f1b30362.chunk.js",
-    "main.js.map": "/maketsOfPaper/static/js/main.f1b30362.chunk.js.map",
-    "runtime-main.js": "/maketsOfPaper/static/js/runtime-main.de00c910.js",
-    "runtime-main.js.map": "/maketsOfPaper/static/js/runtime-main.de00c910.js.map",
-    "static/js/2.b9b23a5e.chunk.js": "/maketsOfPaper/static/js/2.b9b23a5e.chunk.js",
-    "static/js/2.b9b23a5e.chunk.js.map": "/maketsOfPaper/static/js/2.b9b23a5e.chunk.js.map",
-    "static/js/3.187a34ac.chunk.js": "/maketsOfPaper/static/js/3.187a34ac.chunk.js",
-    "static/js/3.187a34ac.chunk.js.map": "/maketsOfPaper/static/js/3.187a34ac.chunk.js.map",
+    "main.js": "/maketsOfPaper/static/js/main.b98b4e5d.chunk.js",
+    "main.js.map": "/maketsOfPaper/static/js/main.b98b4e5d.chunk.js.map",
+    "runtime-main.js": "/maketsOfPaper/static/js/runtime-main.beaf34c3.js",
+    "runtime-main.js.map": "/maketsOfPaper/static/js/runtime-main.beaf34c3.js.map",
+    "static/js/2.ce3c4ab2.chunk.js": "/maketsOfPaper/static/js/2.ce3c4ab2.chunk.js",
+    "static/js/2.ce3c4ab2.chunk.js.map": "/maketsOfPaper/static/js/2.ce3c4ab2.chunk.js.map",
+    "static/js/3.096f9794.chunk.js": "/maketsOfPaper/static/js/3.096f9794.chunk.js",
+    "static/js/3.096f9794.chunk.js.map": "/maketsOfPaper/static/js/3.096f9794.chunk.js.map",
     "index.html": "/maketsOfPaper/index.html",
     "static/css/main.f39bd024.chunk.css.map": "/maketsOfPaper/static/css/main.f39bd024.chunk.css.map",
-    "static/js/2.b9b23a5e.chunk.js.LICENSE.txt": "/maketsOfPaper/static/js/2.b9b23a5e.chunk.js.LICENSE.txt",
+    "static/js/2.ce3c4ab2.chunk.js.LICENSE.txt": "/maketsOfPaper/static/js/2.ce3c4ab2.chunk.js.LICENSE.txt",
     "static/media/index.scss": "/maketsOfPaper/static/media/hero1.94b3544a.jpg",
     "static/media/about1.3f149c5c.jpg": "/maketsOfPaper/static/media/about1.3f149c5c.jpg",
     "static/media/about2.591a0792.jpg": "/maketsOfPaper/static/media/about2.591a0792.jpg",
@@ -29,9 +29,9 @@
     "static/media/photo8.4e224a94.jpg": "/maketsOfPaper/static/media/photo8.4e224a94.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.de00c910.js",
-    "static/js/2.b9b23a5e.chunk.js",
+    "static/js/runtime-main.beaf34c3.js",
+    "static/js/2.ce3c4ab2.chunk.js",
     "static/css/main.f39bd024.chunk.css",
-    "static/js/main.f1b30362.chunk.js"
+    "static/js/main.b98b4e5d.chunk.js"
   ]
 }
