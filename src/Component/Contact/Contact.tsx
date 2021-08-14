@@ -3,17 +3,45 @@ import {useForm} from "react-hook-form";
 import {Input} from "../From/Input";
 import styled from 'styled-components'
 import {Map} from './Map/Map'
+import {useEffect} from "react";
+import {useEmail} from "../../Hook/useEmail";
+import Swal from "sweetalert2";
+
+export type DataType = {
+    comment: string
+    email: string
+    name: string
+    tel: string
+}
 
 export const Contact = () => {
-    const {register, handleSubmit, watch, formState: {errors}} = useForm();
+    const {loading,message,sendEmail} = useEmail()
+    const {register, handleSubmit, formState: {errors}, reset} = useForm();
+    useEffect(() => {
+        if (message === 'SUCCESS'){
+            Swal.fire({
+                position: 'center',
+                icon: 'success',
+                title: 'Повідомлення успішно відправлено',
+                showConfirmButton: false,
+                timer: 2500
+            })
+            reset(register)
+            return
+        }
+        if(message === 'FAILED'){
+            Swal.fire({
+                icon: 'error',
+                title: 'Щось пішло не так',
+                text: "Позвоните нам!",
+                footer: '<a href="tel:+380977550966">+38 097 755 09 66</a>'
+            })
+        }
+    },[message])
 
-
-    // @ts-ignore
-    const onSubmit = data => {
-        // console.log(`this is my fomData ${data}`)
-
+    const onSubmit = (data:any) => {
+        sendEmail(data)
     };
-
     const From = styled.form`
         margin-left: auto;
         margin-right: auto;
@@ -21,13 +49,11 @@ export const Contact = () => {
 
     `
 
-
     return (
         <section className='contact'>
             <div className="contact-container">
                 <From id="modal" onSubmit={handleSubmit(onSubmit)}>
                     <b className="modal-header">Введіть, будь ласка, Ваші контактні дані, ми Вам зателефонуємо</b>
-
                     <Input
                         type='text'
                         labelName="Ім'я"
@@ -46,6 +72,7 @@ export const Contact = () => {
                         register={register}
                         svg={Sprite + '#smartphone'}
                         errors={errors}
+
                     />
                     <Input
                         type='email'
@@ -67,7 +94,12 @@ export const Contact = () => {
                             {...register("comment")}
                         />
                     </div>
-                    <button className="form-btn" type="submit">Надіслати
+                    <button
+                        className="form-btn"
+                        type="submit"
+                        disabled={loading}
+                    >
+                        Надіслати
                     </button>
                 </From>
 

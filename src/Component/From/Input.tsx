@@ -3,6 +3,7 @@ import React from "react";
 
 import styled from "styled-components";
 
+
 const Errors = styled.p`
     position: absolute;
     font-size: 14px;
@@ -26,11 +27,13 @@ type PropsTypes = {
     svg: string
     errors:any
     required:boolean
+
+
 }
 
 export const Input:React.FC<PropsTypes> = ({labelName,
                                                type, label, register,
-                                               svg, errors, required}) => {
+                                               svg, errors, required, }) => {
 
 
     return (
